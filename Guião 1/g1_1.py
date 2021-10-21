@@ -105,4 +105,4 @@ def subsets(list_in):
 	t = subsets(list_in[1:])
 	return t+[[list_in[0]]+e for e in t]
 
-print(subsets([1,2,3,4,5]))
+#print(subsets([1,2,3,4,5]))
